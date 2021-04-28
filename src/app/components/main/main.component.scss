@@ -1,0 +1,23 @@
+#semana{
+    ul{
+        list-style: none;
+        display: inline-flex
+    }
+    form{
+        display: inline-flex;
+        flex-direction: row-reverse;
+        
+    } 
+    button{
+        float: right;
+        display: grid;
+        border: none;
+        color: black;
+    }
+    button:hover{
+        float: right;
+        display: grid;
+        border: none;
+        background-color: lightcyan;
+    }
+}

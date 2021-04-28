@@ -1,0 +1,296 @@
+<div id="semana" *ngIf="region == 'RM'">
+        <ul>
+            <li> 
+                <button [routerLink]="['/update']" routerLinkActive="router-link-active" >Lunes
+                <img *ngIf="listaRM[0].clima == 'Soleado' " src=" " alt="Soleado">
+                <img *ngIf="listaRM[0].clima == 'Nublado' " src=" " alt="Nublado">
+                <img *ngIf="listaRM[0].clima == 'Lluvia' " src=" " alt="Lluvia">
+                <img *ngIf="listaRM[0].clima == 'Tormenta' " src="" alt="Tormenta">
+                <p id="Cels" *ngIf="temp == 'C'"> C</p>
+                <p id="Faren" *ngIf="temp == 'F'"> F</p>
+                </button>
+            </li>
+            <li> 
+                <button [routerLink]="['/update']" routerLinkActive="router-link-active" >Martes
+                <img *ngIf="listaRM[1].clima == 'Soleado' " src=" " alt="Soleado">
+                <img *ngIf="listaRM[1].clima == 'Nublado' " src=" " alt="Nublado">
+                <img *ngIf="listaRM[1].clima == 'Lluvia' " src=" " alt="Lluvia">
+                <img *ngIf="listaRM[1].clima == 'Tormenta' " src="" alt="Tormenta">
+                <p id="Cels" *ngIf="temp == 'C'"> C</p>
+                <p id="Faren" *ngIf="temp == 'F'"> F</p>
+                </button>
+            </li>
+            <li>
+                <button [routerLink]="['/update']" routerLinkActive="router-link-active" >Míercoles
+                <img *ngIf="listaRM[2].clima == 'Soleado' " src=" " alt="Soleado">
+                <img *ngIf="listaRM[2].clima == 'Nublado' " src=" " alt="Nublado">
+                <img *ngIf="listaRM[2].clima == 'Lluvia' " src=" " alt="Lluvia">
+                <img *ngIf="listaRM[2].clima == 'Tormenta' " src="" alt="Tormenta">
+                <p id="Cels" *ngIf="temp == 'C'"> C</p>
+                <p id="Faren" *ngIf="temp == 'F'"> F</p>
+                </button>
+            </li>
+            <li>
+                <button [routerLink]="['/update']" routerLinkActive="router-link-active" >Jueves
+                <img *ngIf="listaRM[3].clima == 'Soleado' " src=" " alt="Soleado">
+                <img *ngIf="listaRM[3].clima == 'Nublado' " src=" " alt="Nublado">
+                <img *ngIf="listaRM[3].clima == 'Lluvia' " src=" " alt="Lluvia">
+                <img *ngIf="listaRM[3].clima == 'Tormenta' " src="" alt="Tormenta">
+                <p id="Cels" *ngIf="temp == 'C'"> C</p>
+                <p id="Faren" *ngIf="temp == 'F'"> F</p>
+                </button> 
+            </li>
+            <li> 
+                <button [routerLink]="['/update']" routerLinkActive="router-link-active" >Viernes
+                <img *ngIf="listaRM[4].clima == 'Soleado' " src=" " alt="Soleado">
+                <img *ngIf="listaRM[4].clima == 'Nublado' " src=" " alt="Nublado">
+                <img *ngIf="listaRM[4].clima == 'Lluvia' " src=" " alt="Lluvia">
+                <img *ngIf="listaRM[4].clima == 'Tormenta' " src="" alt="Tormenta">
+                <p id="Cels" *ngIf="temp == 'C'"> C</p>
+                <p id="Faren" *ngIf="temp == 'F'"> F</p>
+                </button>
+            </li>
+            <li> 
+                <button [routerLink]="['/update']" routerLinkActive="router-link-active" >Sábado
+                <img *ngIf="listaRM[5].clima == 'Soleado' " src=" " alt="Soleado">
+                <img *ngIf="listaRM[5].clima == 'Nublado' " src=" " alt="Nublado">
+                <img *ngIf="listaRM[5].clima == 'Lluvia' " src=" " alt="Lluvia">
+                <img *ngIf="listaRM[5].clima == 'Tormenta' " src="" alt="Tormenta">
+                <p id="Cels" *ngIf="temp == 'C'"> C</p>
+                <p id="Faren" *ngIf="temp == 'F'"> F</p>
+                </button>
+            </li>
+            <li> 
+                <button [routerLink]="['/update']" routerLinkActive="router-link-active" >Domingo
+                <img *ngIf="listaRM[6].clima == 'Soleado' " src=" " alt="Soleado">
+                <img *ngIf="listaRM[6].clima == 'Nublado' " src=" " alt="Nublado">
+                <img *ngIf="listaRM[6].clima == 'Lluvia' " src=" " alt="Lluvia">
+                <img *ngIf="listaRM[6].clima == 'Tormenta' " src="" alt="Tormenta">
+                <p id="Cels" *ngIf="temp == 'C'"> C</p>
+                <p id="Faren" *ngIf="temp == 'F'"> F</p>
+                </button>
+            </li>
+        </ul>
+</div>
+<div id="semana" *ngIf="region == 'Valparaiso'">
+    <ul>
+        <li> 
+            <button [routerLink]="['/update']" routerLinkActive="router-link-active" >Lunes
+            <img *ngIf="listaV[0].clima == 'Soleado' " src=" " alt="Soleado">
+            <img *ngIf="listaV[0].clima == 'Nublado' " src=" " alt="Nublado">
+            <img *ngIf="listaV[0].clima == 'Lluvia' " src=" " alt="Lluvia">
+            <img *ngIf="listaV[0].clima == 'Tormenta' " src="" alt="Tormenta">
+            <p id="Cels" *ngIf="temp == 'C'"> C</p>
+                <p id="Faren" *ngIf="temp == 'F'"> F</p>
+                </button>
+        </li>
+        <li> 
+            <button [routerLink]="['/update']" routerLinkActive="router-link-active" >Martes
+            <img *ngIf="listaV[1].clima == 'Soleado' " src=" " alt="Soleado">
+            <img *ngIf="listaV[1].clima == 'Nublado' " src=" " alt="Nublado">
+            <img *ngIf="listaV[1].clima == 'Lluvia' " src=" " alt="Lluvia">
+            <img *ngIf="listaV[1].clima == 'Tormenta' " src="" alt="Tormenta">
+            <p id="Cels" *ngIf="temp == 'C'"> C</p>
+                <p id="Faren" *ngIf="temp == 'F'"> F</p>
+                </button>
+        </li>
+        <li>
+            <button [routerLink]="['/update']" routerLinkActive="router-link-active" >Míercoles
+            <img *ngIf="listaV[2].clima == 'Soleado' " src=" " alt="Soleado">
+            <img *ngIf="listaV[2].clima == 'Nublado' " src=" " alt="Nublado">
+            <img *ngIf="listaV[2].clima == 'Lluvia' " src=" " alt="Lluvia">
+            <img *ngIf="listaV[2].clima == 'Tormenta' " src="" alt="Tormenta">
+            <p id="Cels" *ngIf="temp == 'C'"> C</p>
+                <p id="Faren" *ngIf="temp == 'F'"> F</p>
+                </button>
+        </li>
+        <li>
+            <button [routerLink]="['/update']" routerLinkActive="router-link-active" >Jueves
+            <img *ngIf="listaV[3].clima == 'Soleado' " src=" " alt="Soleado">
+            <img *ngIf="listaV[3].clima == 'Nublado' " src=" " alt="Nublado">
+            <img *ngIf="listaV[3].clima == 'Lluvia' " src=" " alt="Lluvia">
+            <img *ngIf="listaV[3].clima == 'Tormenta' " src="" alt="Tormenta">
+            <p id="Cels" *ngIf="temp == 'C'"> C</p>
+                <p id="Faren" *ngIf="temp == 'F'"> F</p>
+                </button> 
+        </li>
+        <li> 
+            <button [routerLink]="['/update']" routerLinkActive="router-link-active" >Viernes
+            <img *ngIf="listaV[4].clima == 'Soleado' " src=" " alt="Soleado">
+            <img *ngIf="listaV[4].clima == 'Nublado' " src=" " alt="Nublado">
+            <img *ngIf="listaV[4].clima == 'Lluvia' " src=" " alt="Lluvia">
+            <img *ngIf="listaV[4].clima == 'Tormenta' " src="" alt="Tormenta">
+            <p id="Cels" *ngIf="temp == 'C'"> C</p>
+                <p id="Faren" *ngIf="temp == 'F'"> F</p>
+                </button>
+        </li>
+        <li> 
+            <button [routerLink]="['/update']" routerLinkActive="router-link-active" >Sábado
+            <img *ngIf="listaV[5].clima == 'Soleado' " src=" " alt="Soleado">
+            <img *ngIf="listaV[5].clima == 'Nublado' " src=" " alt="Nublado">
+            <img *ngIf="listaV[5].clima == 'Lluvia' " src=" " alt="Lluvia">
+            <img *ngIf="listaV[5].clima == 'Tormenta' " src="" alt="Tormenta">
+            <p id="Cels" *ngIf="temp == 'C'"> C</p>
+                <p id="Faren" *ngIf="temp == 'F'"> F</p>
+                </button>
+        </li>
+        <li> 
+            <button [routerLink]="['/update']" routerLinkActive="router-link-active" >Domingo
+            <img *ngIf="listaV[6].clima == 'Soleado' " src=" " alt="Soleado">
+            <img *ngIf="listaV[6].clima == 'Nublado' " src=" " alt="Nublado">
+            <img *ngIf="listaV[6].clima == 'Lluvia' " src=" " alt="Lluvia">
+            <img *ngIf="listaV[6].clima == 'Tormenta' " src="" alt="Tormenta">
+            <p id="Cels" *ngIf="temp == 'C'"> C</p>
+                <p id="Faren" *ngIf="temp == 'F'"> F</p>
+                </button>
+        </li>
+    </ul>
+</div>
+<div id="semana" *ngIf="region == 'BB'">
+    <ul>
+        <li> 
+            <button [routerLink]="['/update']" routerLinkActive="router-link-active" >Lunes
+            <img *ngIf="listaBB[0].clima == 'Soleado' " src=" " alt="Soleado">
+            <img *ngIf="listaBB[0].clima == 'Nublado' " src=" " alt="Nublado">
+            <img *ngIf="listaBB[0].clima == 'Lluvia' " src=" " alt="Lluvia">
+            <img *ngIf="listaBB[0].clima == 'Tormenta' " src="" alt="Tormenta">
+            <p id="Cels" *ngIf="temp == 'C'"> C</p>
+                <p id="Faren" *ngIf="temp == 'F'"> F</p>
+                </button>
+        </li>
+        <li> 
+            <button [routerLink]="['/update']" routerLinkActive="router-link-active" >Martes
+            <img *ngIf="listaBB[1].clima == 'Soleado' " src=" " alt="Soleado">
+            <img *ngIf="listaBB[1].clima == 'Nublado' " src=" " alt="Nublado">
+            <img *ngIf="listaBB[1].clima == 'Lluvia' " src=" " alt="Lluvia">
+            <img *ngIf="listaBB[1].clima == 'Tormenta' " src="" alt="Tormenta">
+            <p id="Cels" *ngIf="temp == 'C'"> C</p>
+                <p id="Faren" *ngIf="temp == 'F'"> F</p>
+                </button>
+        </li>
+        <li>
+            <button [routerLink]="['/update']" routerLinkActive="router-link-active" >Míercoles
+            <img *ngIf="listaBB[2].clima == 'Soleado' " src=" " alt="Soleado">
+            <img *ngIf="listaBB[2].clima == 'Nublado' " src=" " alt="Nublado">
+            <img *ngIf="listaBB[2].clima == 'Lluvia' " src=" " alt="Lluvia">
+            <img *ngIf="listaBB[2].clima == 'Tormenta' " src="" alt="Tormenta">
+            <p id="Cels" *ngIf="temp == 'C'"> C</p>
+                <p id="Faren" *ngIf="temp == 'F'"> F</p>
+                </button>
+        </li>
+        <li>
+            <button [routerLink]="['/update']" routerLinkActive="router-link-active" >Jueves
+            <img *ngIf="listaBB[3].clima == 'Soleado' " src=" " alt="Soleado">
+            <img *ngIf="listaBB[3].clima == 'Nublado' " src=" " alt="Nublado">
+            <img *ngIf="listaBB[3].clima == 'Lluvia' " src=" " alt="Lluvia">
+            <img *ngIf="listaBB[3].clima == 'Tormenta' " src="" alt="Tormenta">
+            <p id="Cels" *ngIf="temp == 'C'"> C</p>
+                <p id="Faren" *ngIf="temp == 'F'"> F</p>
+                </button> 
+        </li>
+        <li> 
+            <button [routerLink]="['/update']" routerLinkActive="router-link-active" >Viernes
+            <img *ngIf="listaBB[4].clima == 'Soleado' " src=" " alt="Soleado">
+            <img *ngIf="listaBB[4].clima == 'Nublado' " src=" " alt="Nublado">
+            <img *ngIf="listaBB[4].clima == 'Lluvia' " src=" " alt="Lluvia">
+            <img *ngIf="listaBB[4].clima == 'Tormenta' " src="" alt="Tormenta">
+            <p id="Cels" *ngIf="temp == 'C'"> C</p>
+                <p id="Faren" *ngIf="temp == 'F'"> F</p>
+                </button>
+        </li>
+        <li> 
+            <button [routerLink]="['/update']" routerLinkActive="router-link-active" >Sábado
+            <img *ngIf="listaBB[5].clima == 'Soleado' " src=" " alt="Soleado">
+            <img *ngIf="listaBB[5].clima == 'Nublado' " src=" " alt="Nublado">
+            <img *ngIf="listaBB[5].clima == 'Lluvia' " src=" " alt="Lluvia">
+            <img *ngIf="listaBB[5].clima == 'Tormenta' " src="" alt="Tormenta">
+            <p id="Cels" *ngIf="temp == 'C'"> C</p>
+                <p id="Faren" *ngIf="temp == 'F'"> F</p>
+                </button>
+        </li>
+        <li> 
+            <button [routerLink]="['/update']" routerLinkActive="router-link-active" >Domingo
+            <img *ngIf="listaBB[6].clima == 'Soleado' " src=" " alt="Soleado">
+            <img *ngIf="listaBB[6].clima == 'Nublado' " src=" " alt="Nublado">
+            <img *ngIf="listaBB[6].clima == 'Lluvia' " src=" " alt="Lluvia">
+            <img *ngIf="listaBB[6].clima == 'Tormenta' " src="" alt="Tormenta">
+            <p id="Cels" *ngIf="temp == 'C'"> C</p>
+                <p id="Faren" *ngIf="temp == 'F'"> F</p>
+                </button>
+        </li>
+    </ul>
+</div>
+<div id="semana" *ngIf="region == 'Arauc'">
+    <ul>
+        <li> 
+            <button [routerLink]="['/update']" routerLinkActive="router-link-active" >Lunes
+            <img *ngIf="listaA[0].clima == 'Soleado' " src=" " alt="Soleado">
+            <img *ngIf="listaA[0].clima == 'Nublado' " src=" " alt="Nublado">
+            <img *ngIf="listaA[0].clima == 'Lluvia' " src=" " alt="Lluvia">
+            <img *ngIf="listaA[0].clima == 'Tormenta' " src="" alt="Tormenta">
+            <p id="Cels" *ngIf="temp == 'C'"> C</p>
+                <p id="Faren" *ngIf="temp == 'F'"> F</p>
+                </button>
+        </li>
+        <li> 
+            <button [routerLink]="['/update']" routerLinkActive="router-link-active" >Martes
+            <img *ngIf="listaA[1].clima == 'Soleado' " src=" " alt="Soleado">
+            <img *ngIf="listaA[1].clima == 'Nublado' " src=" " alt="Nublado">
+            <img *ngIf="listaA[1].clima == 'Lluvia' " src=" " alt="Lluvia">
+            <img *ngIf="listaA[1].clima == 'Tormenta' " src="" alt="Tormenta">
+            <p id="Cels" *ngIf="temp == 'C'"> C</p>
+                <p id="Faren" *ngIf="temp == 'F'"> F</p>
+                </button>
+        </li>
+        <li>
+            <button [routerLink]="['/update']" routerLinkActive="router-link-active" >Míercoles
+            <img *ngIf="listaA[2].clima == 'Soleado' " src=" " alt="Soleado">
+            <img *ngIf="listaA[2].clima == 'Nublado' " src=" " alt="Nublado">
+            <img *ngIf="listaA[2].clima == 'Lluvia' " src=" " alt="Lluvia">
+            <img *ngIf="listaA[2].clima == 'Tormenta' " src="" alt="Tormenta">
+            <p id="Cels" *ngIf="temp == 'C'"> C</p>
+                <p id="Faren" *ngIf="temp == 'F'"> F</p>
+                </button>
+        </li>
+        <li>
+            <button [routerLink]="['/update']" routerLinkActive="router-link-active" >Jueves
+            <img *ngIf="listaA[3].clima == 'Soleado' " src=" " alt="Soleado">
+            <img *ngIf="listaA[3].clima == 'Nublado' " src=" " alt="Nublado">
+            <img *ngIf="listaA[3].clima == 'Lluvia' " src=" " alt="Lluvia">
+            <img *ngIf="listaA[3].clima == 'Tormenta' " src="" alt="Tormenta">
+            <p id="Cels" *ngIf="temp == 'C'"> C</p>
+                <p id="Faren" *ngIf="temp == 'F'"> F</p>
+                </button> 
+        </li>
+        <li> 
+            <button [routerLink]="['/update']" routerLinkActive="router-link-active" >Viernes
+            <img *ngIf="listaA[4].clima == 'Soleado' " src=" " alt="Soleado">
+            <img *ngIf="listaA[4].clima == 'Nublado' " src=" " alt="Nublado">
+            <img *ngIf="listaA[4].clima == 'Lluvia' " src=" " alt="Lluvia">
+            <img *ngIf="listaA[4].clima == 'Tormenta' " src="" alt="Tormenta">
+            <p id="Cels" *ngIf="temp == 'C'"> C</p>
+                <p id="Faren" *ngIf="temp == 'F'"> F</p>
+                </button>
+        </li>
+        <li> 
+            <button [routerLink]="['/update']" routerLinkActive="router-link-active" >Sábado
+            <img *ngIf="listaA[5].clima == 'Soleado' " src=" " alt="Soleado">
+            <img *ngIf="listaA[5].clima == 'Nublado' " src=" " alt="Nublado">
+            <img *ngIf="listaA[5].clima == 'Lluvia' " src=" " alt="Lluvia">
+            <img *ngIf="listaA[5].clima == 'Tormenta' " src="" alt="Tormenta">
+            <p id="Cels" *ngIf="temp == 'C'"> C</p>
+                <p id="Faren" *ngIf="temp == 'F'"> F</p>
+                </button>
+        </li>
+        <li> 
+            <button [routerLink]="['/update']" routerLinkActive="router-link-active" >Domingo
+            <img *ngIf="listaA[6].clima == 'Soleado' " src=" " alt="Soleado">
+            <img *ngIf="listaA[6].clima == 'Nublado' " src=" " alt="Nublado">
+            <img *ngIf="listaA[6].clima == 'Lluvia' " src=" " alt="Lluvia">
+            <img *ngIf="listaA[6].clima == 'Tormenta' " src="" alt="Tormenta">
+            <p id="Cels" *ngIf="temp == 'C'"> C</p>
+                <p id="Faren" *ngIf="temp == 'F'"> F</p>
+                </button>
+        </li>
+    </ul>
+</div>

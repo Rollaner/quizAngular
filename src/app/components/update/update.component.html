@@ -1,0 +1,46 @@
+<form [formGroup]="updateForm" (ngSubmit)="update()" novalidate>
+    <ul>
+        <li>
+            <label for="region">
+                 Región
+            </label>
+            <select formControlName="region">
+                <option [value] = 'null' disabled>Seleccione una región</option>
+                <option *ngFor="let item of regiones" [value]="item">{{item}}</option>
+            </select>
+        </li>
+        <li>
+           <label for="clima">
+              Estado del clima
+           </label>
+           <input type="radio" ng-model="clima" value="clima1">Soleado
+           <input type="radio" ng-model="clima" value="clima2">Nublado
+           <input type="radio" ng-model="clima" value="clima3">Lluvia
+           <input type="radio" ng-model="clima" value="clima4">Tormenta
+       </li>
+       <li>
+           <label for="dia">
+               Día
+           </label>
+           <select formControlName="dia">
+            <option [value] = 'null' disabled>Seleccione un día</option>
+            <option *ngFor="let item of dias" [value]="item">{{item}}</option>
+        </select>
+       </li>
+       <li>
+           <label for="temp"> Temperatura </label>
+           <input type="number" id="temp" formControlName="temp">
+       </li>
+       <li>
+           <label for="grados"></label>
+           <input type="radio" ng-model="grado" value="C">C°
+           <input type="radio" ng-model="grado" value="F">F°
+       </li>
+       <li id='buttons'>
+            <!--<button [routerLink]="['../']" routerLinkActive="router-link-active" >Volver</button>-->
+            <button type="submit" [routerLink]="['/main', 'Valparaiso']" routerLinkActive="router-link-active">
+                Actualizar
+            </button>
+       </li>
+    </ul>
+</form>

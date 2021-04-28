@@ -1,0 +1,22 @@
+<div id= "image">
+        <ul>
+            <mat-icon aria-hidden="true">cloud</mat-icon>
+            <li> Clima </li>
+        </ul>
+</div>
+<span id="region">
+    <nav>
+        <ul>
+            <li><button [routerLink]="['/main', 'Valparaiso']" routerLinkActive="router-link-active" >Valparaiso</button></li>
+            <li><button [routerLink]="['/main', 'RM']" routerLinkActive="router-link-active" >RM</button></li>
+            <li><button [routerLink]="['/main', 'BB']" routerLinkActive="router-link-active" >Bio Bio</button></li>
+            <li><button [routerLink]="['/main','Arauc']" routerLinkActive="router-link-active" >Auraucania</button></li>
+         </ul> 
+        </nav>         
+    </span>
+<span id="temp">
+    <button onclick="changetempC()"> C°</button>
+    <button onclick="changetempF()"> F°</button>
+</span>
+
+ 

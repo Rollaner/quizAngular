@@ -1,0 +1,26 @@
+ul{
+    list-style: none;
+    display: flex;
+    border: none;
+    bottom: 1%;
+}
+#region{
+    ul{
+        list-style: none;
+        display: inline-flex;
+        border: black;
+    }
+    button{
+        background: none;
+        border: black;
+        border-style: inherit;
+    }
+    button:hover{
+        background-color: lightskyblue;
+    }
+}
+#temp{
+    display: flex;
+    flex-direction: row;
+    float:right;
+}
